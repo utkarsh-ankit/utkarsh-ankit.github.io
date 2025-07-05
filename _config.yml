@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Utk's space"
+title: "utk's space"
 email: officialuser.utk@gmail.com
 description: "I write about AI stuff"
 twitter_username: UttsPutts #https://x.com/UttsPutts
@@ -56,7 +56,7 @@ plugins:
 
 # Note: The following author links are displayed in the sidebar
 author:
-  name: "utk's space"
+  name: "Utkarsh Ankit"
   avatar: "/assets/images/bio-photo.jpg" # Optional: path to your profile picture
   bio: "I write about AI stuff!!"
   links:
