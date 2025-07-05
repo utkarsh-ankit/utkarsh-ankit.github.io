@@ -14,3 +14,15 @@
   overflow: hidden;
   margin-bottom: 2.2rem;  /* more spacing between posts */
 }
+
+/* light divider below every post in the list archive */
+.list__item {
+  border-bottom: 1px solid var(--mm-gray-light);  /* Minimal Mistakes neutral light gray */
+  padding-bottom: 2.0rem;                         /* space above the line */
+  margin-bottom: 2.0rem;                          /* space below before next item */
+}
+
+/* remove line after the last item on a page (optional) */
+.list__item:last-child {
+  border-bottom: none;
+}
