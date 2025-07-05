@@ -18,7 +18,7 @@ email: officialuser.utk@gmail.com
 description: "I write about AI stuff"
 twitter_username: UttsPutts #https://x.com/UttsPutts
 github_username: utkarsh-ankit #https://github.com/utkarsh-ankit
-minimal_mistakes_skin: mint
+minimal_mistakes_skin: dark
 search: true
 
 # Build settings
