@@ -17,39 +17,47 @@
 
 
 
-/* row layout: thumbnail left, text right */
-.list__item .archive__item {
-  display: flex;
-  gap: 20px;                 /* space between image and text */
-  align-items: flex-start;
-  padding-bottom: 2rem;      /* space above divider */
-  margin-bottom: 2rem;       /* space below divider */
-  border-bottom: 1px solid var(--mm-gray-light, #e5e5e5);
-}
 
-/* thumbnail tile */
+
+/* keep thumbnails a fixed width and on the left */
 .archive__item-teaser--list {
-  flex: 0 0 140px;           /* fixed width column */
+  flex: 0 0 140px;           /* tile size */
   border-radius: 4px;
   object-fit: cover;
   box-shadow: 0 0 4px rgba(0,0,0,.12);
+  margin: 0;                 /* gap handled by flex -- see below */
 }
 
-/* mobile breakpoint: stack thumbnail above text */
+/* turn each archive entry into one flex row */
+.list__item .archive__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;                 /* space between image and text */
+  overflow: visible;         /* no clearfix needed */
+}
+
+/* force ONE column — cancel the theme’s float + width rules */
+.list__item {
+  float: none !important;
+  width: 100% !important;
+  clear: both;
+  border-bottom: 1px solid var(--mm-gray-light, #e5e5e5);
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* remove divider from the very last item */
+.list__item:last-child { border-bottom: none; }
+
+/* optional: stack on tiny screens */
 @media (max-width: 640px) {
-  .list__item .archive__item {
-    display: block;          /* drop back to block layout */
-  }
+  .list__item .archive__item { display: block; }
   .archive__item-teaser--list {
     width: 100%;
-    margin: 0 0 10px 0;      /* full-width image with margin below */
+    margin-bottom: 10px;
   }
 }
 
-/* remove divider on the very last post (optional) */
-.list__item:last-child .archive__item {
-  border-bottom: none;
-}
 
 
 
