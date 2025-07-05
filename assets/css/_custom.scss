@@ -1,13 +1,16 @@
 /* thumbnail for list layout */
 .archive__item-teaser--list {
   float: left;
-  width: 160px;         /* adjust size here */
-  margin: 0 20px 10px 0;
+  width: 130px;           /* try 120–150 until it feels right */
+  margin: 0 18px 10px 0;
   border-radius: 4px;
   object-fit: cover;
+  vertical-align: top;    /* aligns first text line with image top */
+  box-shadow: 0 0 4px rgba(0,0,0,.12);
 }
 
-/* clearfix so text wraps properly */
+/* clearfix so the floated image doesn’t punch into next posts */
 .list__item .archive__item {
   overflow: hidden;
+  margin-bottom: 2.2rem;  /* more spacing between posts */
 }
