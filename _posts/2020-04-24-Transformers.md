@@ -1,11 +1,9 @@
-
-
 ---
-title: "This is a Test Post"
-date: 2025-07-05
-excerpt: "If this post appears with an image, the website is working correctly."
+title: "Transformer Neural Network: Step-By-Step Breakdown of the Beast"
+date: 2020-04-24
+excerpt: "A Breakdown of the Transformer Model."
+link: "https://medium.com/data-science/transformer-neural-network-step-by-step-breakdown-of-the-beast-b3e096dc857f"
 header:
-  teaser: "https://placekitten.com/400/250"
+  teaser:  /assets/images/Untitled.jpg
 ---
 
-This is a test to see if teaser images appear.
