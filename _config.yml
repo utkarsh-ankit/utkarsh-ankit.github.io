@@ -78,6 +78,9 @@ tag_archive:
   type: liquid
   path: /tags/
 
+atom_feed:
+  hide: true
+
 # Collections
 collections:
   publications:
