@@ -41,6 +41,10 @@ author:
       icon: "fab fa-fw fa-x-twitter"   # <-- THIS IS THE CORRECTED X ICON
       url: "https://x.com/UttsPutts"
 
+    - label: "LeetCode"
+      icon: "fas fa-fw fa-leetcode"
+      url: "https://leetcode.com/u/utk_ink/"
+
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/utkarsh-ankit"
