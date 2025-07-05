@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: utts space
 email: officialuser.utk@gmail.com
-description: >- I write about AI stuffs
+description: "I write about AI stuffs"
 twitter_username: UttsPutts #https://x.com/UttsPutts
 github_username: utkarsh-ankit #https://github.com/utkarsh-ankit
 minimal_mistakes_skin: default
