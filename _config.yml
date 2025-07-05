@@ -58,7 +58,7 @@ plugins:
 author:
   name: "Utkarsh Ankit"
   avatar: "/assets/images/bio-photo.jpg" # Optional: path to your profile picture
-  bio: "I write about AI stuff!!"
+  bio: "I write about AI stuff"
   links:
     - label: "LinkedIn"                 # <-- NEW LINKEDIN ENTRY
       icon: "fab fa-fw fa-linkedin"
