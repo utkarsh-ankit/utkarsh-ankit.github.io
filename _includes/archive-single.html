@@ -15,29 +15,26 @@
            itemscope
            itemtype="https://schema.org/CreativeWork"{% if post.locale %} lang="{{ post.locale }}"{% endif %}>
 
-    {%- comment -%} ---------------------------------------------------------
-      TEASER LOGIC
-      • grid / masonry  – original behaviour (image wrapped in <div>)
-      • list            – new: small floated thumbnail
-    ----------------------------------------------------------------------- {%- endcomment -%}
-
     {% case include.type %}
-      {% when "grid" %}
+      {% when 'grid' %}
         {% if teaser %}
           <div class="archive__item-teaser">
             <img src="{{ teaser | relative_url }}" alt="">
           </div>
         {% endif %}
-      {% when "masonry" %}
+
+      {% when 'masonry' %}
         {% if teaser %}
           <div class="archive__item-teaser">
             <img src="{{ teaser | relative_url }}" alt="">
           </div>
         {% endif %}
-      {% else %}
-        {# default branch == list #}
+
+      {% else %} {%- comment -%} default branch → list {%- endcomment -%}
         {% if teaser %}
-          <img class="archive__item-teaser--list" src="{{ teaser | relative_url }}" alt="">
+          <img src="{{ teaser | relative_url }}"
+               alt=""
+               style="float:left;width:160px;margin:0 20px 10px 0;border-radius:4px;object-fit:cover;">
         {% endif %}
     {% endcase %}
 
