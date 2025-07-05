@@ -15,21 +15,31 @@
            itemscope
            itemtype="https://schema.org/CreativeWork"{% if post.locale %} lang="{{ post.locale }}"{% endif %}>
 
-    {%- comment -%}
-    ----------------------------------------------------------------------
-    Thumbnail logic
-    • grid  ➜ keeps original behaviour
-    • list  ➜ new: show a left-aligned 140 px teaser if one exists
-    ----------------------------------------------------------------------
-    {%- endcomment -%}
+    {%- comment -%} ---------------------------------------------------------
+      TEASER LOGIC
+      • grid / masonry  – original behaviour (image wrapped in <div>)
+      • list            – new: small floated thumbnail
+    ----------------------------------------------------------------------- {%- endcomment -%}
 
-    {% if teaser and include.type == "grid" %}
-      <div class="archive__item-teaser">
-        <img src="{{ teaser | relative_url }}" alt="">
-      </div>
-    {% elsif teaser and include.type == "list" %}
-      <img class="archive__item-teaser" src="{{ teaser | relative_url }}" alt="">
-    {% endif %}
+    {% case include.type %}
+      {% when "grid" %}
+        {% if teaser %}
+          <div class="archive__item-teaser">
+            <img src="{{ teaser | relative_url }}" alt="">
+          </div>
+        {% endif %}
+      {% when "masonry" %}
+        {% if teaser %}
+          <div class="archive__item-teaser">
+            <img src="{{ teaser | relative_url }}" alt="">
+          </div>
+        {% endif %}
+      {% else %}
+        {# default branch == list #}
+        {% if teaser %}
+          <img class="archive__item-teaser--list" src="{{ teaser | relative_url }}" alt="">
+        {% endif %}
+    {% endcase %}
 
     <h2 class="archive__item-title no_toc" itemprop="headline">
       {% if post.link %}
