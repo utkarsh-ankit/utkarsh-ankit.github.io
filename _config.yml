@@ -60,6 +60,7 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
+  show_rss: false  # <-- ADD THIS LINE
 
 defaults:
   # _posts
