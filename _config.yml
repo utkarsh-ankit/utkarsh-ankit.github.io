@@ -1,6 +1,6 @@
 title: "utk's space"
 email: officialuser.utk@gmail.com
-description: "I write about AI stuff"
+description: "I write about AI stuff."
 twitter_username: UttsPutts #https://x.com/UttsPutts
 github_username: utkarsh-ankit #https://github.com/utkarsh-ankit
 minimal_mistakes_skin: dirt #neon
@@ -31,7 +31,7 @@ plugins:
 author:
   name: "Utkarsh Ankit"
   avatar: "/assets/images/bio-photo.jpg" # Optional: path to your profile picture
-  bio: "I write about AI stuff"
+  bio: "I write about AI stuff."
   links:
     - label: "LinkedIn"                 # <-- NEW LINKEDIN ENTRY
       icon: "fab fa-fw fa-linkedin"
