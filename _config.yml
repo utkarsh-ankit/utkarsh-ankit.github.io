@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: utts space
+title: "Utts space"
 email: officialuser.utk@gmail.com
-description: "I write about AI stuffs"
+description: "I write about AI stuff"
 twitter_username: UttsPutts #https://x.com/UttsPutts
 github_username: utkarsh-ankit #https://github.com/utkarsh-ankit
 minimal_mistakes_skin: default
@@ -54,23 +54,27 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# Note: The following author links are displayed in the sidebar
 author:
-  name   : "Utkarsh Ankit"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Welcome to my world"
+  name: "utk's space"
+  avatar: "/assets/images/bio-photo.jpg" # Optional: path to your profile picture
+  bio: "I write about AI stuffs"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "X"
+      icon: "fab fa-fw fa-x-twitter"   # <-- THIS IS THE CORRECTED X ICON
+      url: "https://x.com/UttsPutts"
+
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/utkarsh-ankit"
+    
+    - label: "LinkedIn"                 # <-- NEW LINKEDIN ENTRY
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/utkarsh-ankit/" # <-- CHANGE THIS URL
+
+    - label: "Medium"                   # <-- NEW MEDIUM ENTRY
+      icon: "fab fa-fw fa-medium"
+      url: "https://utkarsh-ankit.medium.com/about" # <-- CHANGE THIS URL
 
 footer:
   links:
@@ -80,9 +84,6 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
 
 defaults:
   # _posts
