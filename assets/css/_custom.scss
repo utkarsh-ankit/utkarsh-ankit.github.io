@@ -1,6 +1,13 @@
-.archive__item-teaser {
+/* thumbnail for list layout */
+.archive__item-teaser--list {
   float: left;
-  width: 140px;
+  width: 160px;         /* adjust size here */
   margin: 0 20px 10px 0;
   border-radius: 4px;
+  object-fit: cover;
+}
+
+/* clearfix so text wraps properly */
+.list__item .archive__item {
+  overflow: hidden;
 }
