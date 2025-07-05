@@ -42,7 +42,7 @@ author:
       url: "https://x.com/UttsPutts"
 
     - label: "LeetCode"
-      icon: "fas fa-fw fa-leetcode"
+      icon: "fas fa-fw fa-code"
       url: "https://leetcode.com/u/utk_ink/"
 
     - label: "GitHub"
