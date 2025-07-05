@@ -1,28 +1,55 @@
-/* thumbnail for list layout */
+// /* thumbnail for list layout */
+// .archive__item-teaser--list {
+//   float: left;
+//   width: 130px;           /* try 120–150 until it feels right */
+//   margin: 0 18px 10px 0;
+//   border-radius: 4px;
+//   object-fit: cover;
+//   vertical-align: top;    /* aligns first text line with image top */
+//   box-shadow: 0 0 4px rgba(0,0,0,.12);
+// }
+
+// /* clearfix so the floated image doesn’t punch into next posts */
+// .list__item .archive__item {
+//   overflow: hidden;
+//   margin-bottom: 2.2rem;  /* more spacing between posts */
+// }
+
+
+
+/* row layout: thumbnail left, text right */
+.list__item .archive__item {
+  display: flex;
+  gap: 20px;                 /* space between image and text */
+  align-items: flex-start;
+  padding-bottom: 2rem;      /* space above divider */
+  margin-bottom: 2rem;       /* space below divider */
+  border-bottom: 1px solid var(--mm-gray-light, #e5e5e5);
+}
+
+/* thumbnail tile */
 .archive__item-teaser--list {
-  float: left;
-  width: 130px;           /* try 120–150 until it feels right */
-  margin: 0 18px 10px 0;
+  flex: 0 0 140px;           /* fixed width column */
   border-radius: 4px;
   object-fit: cover;
-  vertical-align: top;    /* aligns first text line with image top */
   box-shadow: 0 0 4px rgba(0,0,0,.12);
 }
 
-/* clearfix so the floated image doesn’t punch into next posts */
-.list__item .archive__item {
-  overflow: hidden;
-  margin-bottom: 2.2rem;  /* more spacing between posts */
+/* mobile breakpoint: stack thumbnail above text */
+@media (max-width: 640px) {
+  .list__item .archive__item {
+    display: block;          /* drop back to block layout */
+  }
+  .archive__item-teaser--list {
+    width: 100%;
+    margin: 0 0 10px 0;      /* full-width image with margin below */
+  }
 }
 
-/* light divider below every post in the list archive */
-.list__item {
-  border-bottom: 1px solid var(--mm-gray-light);  /* Minimal Mistakes neutral light gray */
-  padding-bottom: 2.0rem;                         /* space above the line */
-  margin-bottom: 2.0rem;                          /* space below before next item */
-}
-
-/* remove line after the last item on a page (optional) */
-.list__item:last-child {
+/* remove divider on the very last post (optional) */
+.list__item:last-child .archive__item {
   border-bottom: none;
 }
+
+
+
