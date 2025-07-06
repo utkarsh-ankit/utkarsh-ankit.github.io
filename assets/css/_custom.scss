@@ -65,6 +65,12 @@ a.back-to-top,
   display: none !important;
 }
 
+/* hide the “BACK TO TOP ↑” link that appears in year and category archives */
+p.text-small > a[href="#page-top"] {
+  display: none !important;
+}
+
+
 
 
 
