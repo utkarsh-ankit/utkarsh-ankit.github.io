@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "About utk"
+title: "About Utkarsh"
 ---
 
 <div style="margin-bottom: 40px;"></div>
