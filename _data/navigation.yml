@@ -1,7 +1,7 @@
 # main navigation
 main:
   - title: "Blogs"
-    url: /posts/
+    url: /
   - title: "Publications"
     url: /publications/
   - title: "About"
