@@ -58,6 +58,14 @@
   }
 }
 
+/* remove the little "back to top ↑" link in yearly archives */
+.year__item-back-to-top,
+a.back-to-top,
+.text-muted a[href^="#"] {   /* catch the default class + fallback */
+  display: none !important;
+}
+
+
 
 
 
