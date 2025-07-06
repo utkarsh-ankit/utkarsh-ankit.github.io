@@ -90,3 +90,18 @@
 .archive__item-title {
   margin-top: 0;
 }
+
+
+
+.archive__subtitle {
+  margin-top: 0 !important;  /* No effect since you removed years, but safe */
+}
+
+.page__title {
+  margin-bottom: 2.2rem !important; /* Increase until it looks good */
+}
+
+/* If you want more control over only the first entry, you can target it like this: */
+.entries-list > .list__item:first-child {
+  margin-top: 2.2rem; /* or whatever spacing looks right */
+}
