@@ -86,3 +86,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+
+# _config.yml  ───────────────────────────────────────────
+back_to_top: false       # ← add this anywhere (top-level key)
+# optional – empties the translation too
+back_to_top_text: ""
+
