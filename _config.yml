@@ -10,10 +10,10 @@ search: true
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes@4.26.0
 
-# _config.yml  ───────────────────────────────────────────
-back_to_top: false       # ← add this anywhere (top-level key)
-# optional – empties the translation too
-back_to_top_text: ""
+# # _config.yml  ───────────────────────────────────────────
+# back_to_top: false       # ← add this anywhere (top-level key)
+# # optional – empties the translation too
+# back_to_top_text: ""
 
 # Outputting
 permalink: /:categories/:title/
