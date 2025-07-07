@@ -7,5 +7,5 @@ author_profile: true
 
 <div style="margin-bottom: 40px;"></div>
 
-Feel free to reach out to me via email at _officialuser.utk@gmail.com_
+Feel free to reach out to me via email at [_officialuser.utk@gmail.com_](mailto:officialuser.utk@gmail.com)
 
