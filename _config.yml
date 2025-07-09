@@ -31,6 +31,7 @@ plugins:
   - jekyll-gist
   - jemoji
   - jekyll-include-cache
+  - jekyll-academicons
 
 # Author settings
 author:
