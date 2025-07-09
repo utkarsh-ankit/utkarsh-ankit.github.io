@@ -102,6 +102,9 @@ collections:
     output: true
     permalink: /:collection/:path/
 
+head_scripts:
+  - "https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
+
 
 
 
