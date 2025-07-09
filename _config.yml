@@ -10,11 +10,6 @@ search: true
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes@4.26.0
 
-# # _config.yml  ───────────────────────────────────────────
-# back_to_top: false       # ← add this anywhere (top-level key)
-# # optional – empties the translation too
-# back_to_top_text: ""
-
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -45,9 +40,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/utkarsh-ankit/"
-    - label: "X"
-      icon: "fab fa-fw fa-x-twitter"
-      url: "https://x.com/UttsPutts"
+    - label: "Medium"
+      icon: "fab fa-fw fa-medium"
+      url: "https://utkarsh-ankit.medium.com/"
     - label: "LeetCode"
       icon: "fas fa-fw fa-code"
       url: "https://leetcode.com/u/utk_ink/"
@@ -55,11 +50,11 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/utkarsh-ankit"
     - label: "ORCID"
-      icon: "/assets/images/orcid.png"  #"fas fa-fw fa-id-card"
+      icon: "fas fa-fw fa-id-card"
       url: "https://orcid.org/0000-0002-7037-7028"
-    - label: "Medium"
-      icon: "fab fa-fw fa-medium"
-      url: "https://utkarsh-ankit.medium.com/"
+    - label: "X"
+      icon: "fab fa-fw fa-x-twitter"
+      url: "https://x.com/UttsPutts"
     - label: "officialuser.utk@gmail.com"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:officialuser.utk@gmail.com"
