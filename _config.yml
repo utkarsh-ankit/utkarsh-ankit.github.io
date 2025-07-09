@@ -55,7 +55,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/utkarsh-ankit"
     - label: "ORCID"
-      icon: "fas fa-fw fa-user"
+      icon: "/assets/images/orc.png"
       url: "https://orcid.org/0000-0002-7037-7028"
     - label: "Medium"
       icon: "fab fa-fw fa-medium"
