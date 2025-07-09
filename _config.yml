@@ -101,9 +101,6 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-# Custom includes
-include:
-  - assets/css/custom.css
 
 
 
