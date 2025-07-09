@@ -38,6 +38,9 @@ author:
   avatar: "/assets/images/awc.jpg" # Optional
   bio: "I write about AI stuff."
   links:
+    - label: "California, US"
+      icon: "fas fa-fw fa-map-marker-alt"
+      url: ""
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/utkarsh-ankit/"
@@ -50,9 +53,15 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/utkarsh-ankit"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/0000-0002-7037-7028"
     - label: "Medium"
       icon: "fab fa-fw fa-medium"
       url: "https://utkarsh-ankit.medium.com/"
+    - label: "officialuser.utk@gmail.com"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:officialuser.utk@gmail.com"
 
 # Defaults
 defaults:
