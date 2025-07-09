@@ -103,7 +103,8 @@ collections:
 
 # Custom includes
 include:
-  - assets/css/main.scss
+  - assets/css/custom.css
+
 
 
 
