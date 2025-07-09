@@ -55,14 +55,15 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/utkarsh-ankit"
     - label: "ORCID"
-      icon: "fas fa-fw fa-user"
+      icon: "ai ai-orcid"
       url: "https://orcid.org/0000-0002-7037-7028"
     - label: "Medium"
-      icon: "ai ai-orcid"
+      icon: "fab fa-fw fa-medium"
       url: "https://utkarsh-ankit.medium.com/"
     - label: "officialuser.utk@gmail.com"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:officialuser.utk@gmail.com"
+
 
 # Defaults
 defaults:
