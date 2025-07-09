@@ -58,7 +58,7 @@ author:
       icon: "fas fa-fw fa-user"
       url: "https://orcid.org/0000-0002-7037-7028"
     - label: "Medium"
-      icon: "fab fa-fw fa-medium"
+      icon: "ai ai-orcid"
       url: "https://utkarsh-ankit.medium.com/"
     - label: "officialuser.utk@gmail.com"
       icon: "fas fa-fw fa-envelope"
