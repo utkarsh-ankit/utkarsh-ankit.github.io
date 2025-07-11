@@ -31,7 +31,7 @@ plugins:
 # Author settings
 author:
   name: "Utkarsh Ankit"
-  avatar: "/assets/images/awc.jpg" # Optional
+  avatar: "/assets/images/utk.png" # Optional
   bio: "I write about AI stuff."
   links:
     - label: "California, US"
