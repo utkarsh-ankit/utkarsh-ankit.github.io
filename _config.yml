@@ -1,5 +1,5 @@
 title: "utk's space"
-email: officialuser.utk@gmail.com
+email: uankit@asu.edu
 description: "I write about AI stuff."
 twitter_username: UttsPutts
 github_username: utkarsh-ankit
@@ -55,9 +55,9 @@ author:
     - label: "X"
       icon: "fab fa-fw fa-x-twitter"
       url: "https://x.com/UttsPutts"
-    - label: "uankit@asu.edu"
-      icon: "fas fa-fw fa-envelope"
-      url: "uankit@asu.edu"
+    # - label: "uankit@asu.edu"
+    #   icon: "fas fa-fw fa-envelope"
+    #   url: "uankit@asu.edu"
 
 
 # Defaults
