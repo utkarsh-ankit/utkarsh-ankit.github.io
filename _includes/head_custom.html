@@ -1,12 +1,36 @@
+<!-- <style>
+[data-icon-path="/assets/images/orcid.png"] {
+  background: url('/assets/images/orcid.png') no-repeat left center;
+  padding-left: 20px !important;
+}
+</style> -->
 <style>
+/* ORCID (your existing rule) */
 [data-icon-path="/assets/images/orcid.png"] {
   background: url('/assets/images/orcid.png') no-repeat left center;
   padding-left: 20px !important;
 }
 
+/* If any author links render as <img>, keep them consistent */
 .author__urls img {
   width: 16px;
   height: 16px;
   vertical-align: middle;
 }
+
+/* Google Scholar: replace the Font Awesome icon with your PNG */
+.author__urls a[href*="scholar.google.com"] i {
+  background: url('/assets/images/google_scholar.png') no-repeat center;
+  background-size: 16px 16px;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Hide the Font Awesome glyph underneath */
+.author__urls a[href*="scholar.google.com"] i::before {
+  display: none;
+}
 </style>
+
