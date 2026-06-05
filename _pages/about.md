@@ -13,6 +13,6 @@ Research_Experiences@:-
 - IIT BHU (Varanasi)
 - ASU (CRS Lab and Embodied Games Lab)
 
-Years of industrial experience in the AI/ML domain.
+And years of industrial experience in the AI/ML domain.
 
 Formula 1 fan!! 🏎️
