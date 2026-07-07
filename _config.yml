@@ -47,7 +47,7 @@ author:
       icon: "fab fa-fw fa-medium"
       url: "https://utkarsh-ankit.medium.com/"
     - label: "YouTube"
-      icon: "fas fa-fw fa-youtube"
+      icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/@thinkfirst_09"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
