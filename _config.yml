@@ -28,6 +28,19 @@ plugins:
   - jekyll-include-cache
   - jekyll-academicons
 
+# Structured data (Person schema) for search engines
+social:
+  type: Person
+  name: "Utkarsh Ankit"
+  links:
+    - "https://www.linkedin.com/in/utkarsh-ankit/"
+    - "https://github.com/utkarsh-ankit"
+    - "https://x.com/UttsPutts"
+    - "https://scholar.google.com/citations?hl=en&user=BjUFvAcAAAAJ"
+    - "https://utkarsh-ankit.medium.com/"
+    - "https://www.youtube.com/@thinkfirst_09"
+    - "https://orcid.org/0000-0002-7037-7028"
+
 # Author settings
 author:
   name: "Utkarsh Ankit"

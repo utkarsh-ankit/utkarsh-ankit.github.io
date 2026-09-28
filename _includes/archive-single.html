@@ -19,21 +19,21 @@
       {% when 'grid' %}
         {% if teaser %}
           <div class="archive__item-teaser">
-            <img src="{{ teaser | relative_url }}" alt="">
+            <img src="{{ teaser | relative_url }}" alt="{{ title | strip_html | escape }}">
           </div>
         {% endif %}
 
       {% when 'masonry' %}
         {% if teaser %}
           <div class="archive__item-teaser">
-            <img src="{{ teaser | relative_url }}" alt="">
+            <img src="{{ teaser | relative_url }}" alt="{{ title | strip_html | escape }}">
           </div>
         {% endif %}
 
       {% else %} {%- comment -%} default branch → list {%- endcomment -%}
         {% if teaser %}
           <img src="{{ teaser | relative_url }}"
-               alt=""
+               alt="{{ title | strip_html | escape }}"
                style="float:left;width:160px;margin:0 20px 10px 0;border-radius:4px;object-fit:cover;">
         {% endif %}
     {% endcase %}
