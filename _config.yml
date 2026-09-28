@@ -34,7 +34,7 @@ author:
   avatar: "/assets/images/utk.png" # Optional
   bio: "I write about AI stuff."
   links:
-    - label: "California, US"
+    - label: "San Francisco, CA"
       icon: "fas fa-fw fa-map-marker-alt"
       url: ""
     - label: "Google Scholar"
