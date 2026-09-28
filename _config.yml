@@ -5,6 +5,7 @@ twitter_username: UttsPutts
 github_username: utkarsh-ankit
 minimal_mistakes_skin: dirt #neon
 search: true
+og_image: /assets/images/share-banner.png # default link-preview image
 
 # Build settings
 markdown: kramdown
