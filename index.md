@@ -2,7 +2,7 @@
 layout: posts
 title: "Blogs"
 permalink: /
-author_profile: false
+author_profile: true
 show_excerpts: true
 show_teasers: true
 ---
